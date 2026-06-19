@@ -1,4 +1,4 @@
-module basremote
+module github.com/zenki-deve/bas-remote-go
 
 go 1.21.0
 

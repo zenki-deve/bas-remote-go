@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)](https://golang.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bablosoft/bas-remote-go)](https://goreportcard.com/report/github.com/bablosoft/bas-remote-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zenki-deve/bas-remote-go)](https://goreportcard.com/report/github.com/zenki-deve/bas-remote-go)
 
 Go-порт библиотеки [bas-remote-python](https://github.com/bablosoft/bas-remote-python) — клиент для удалённого управления функциями [BrowserAutomationStudio (BAS)](https://bablosoft.com/shop/BrowserAutomationStudio) из Go-приложений.
 
@@ -24,7 +24,7 @@ Go-порт библиотеки [bas-remote-python](https://github.com/bablosof
 ## Установка
 
 ```bash
-go get github.com/bablosoft/bas-remote-go
+go get github.com/zenki-deve/bas-remote-go
 ```
 
 Требования: **Go 1.21+**, **Windows** (движок BAS работает только под Windows).
@@ -43,7 +43,7 @@ import (
 	"log"
 	"time"
 
-	basremote "github.com/bablosoft/bas-remote-go"
+	basremote "github.com/zenki-deve/bas-remote-go"
 )
 
 func main() {
